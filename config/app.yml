@@ -1,0 +1,5 @@
+test:
+  key: "VALUE"
+
+development:
+  key: "<%= Rails.application.credentials.section[:key] %>"
